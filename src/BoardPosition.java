@@ -27,7 +27,7 @@ public class BoardPosition {
      * @return row position
      *
      * @pre none
-     * @post none
+     * @post getRow = row and row = #row
      */
     public int getRow() {
         return Row;
@@ -39,7 +39,7 @@ public class BoardPosition {
      * @return column position
      *
      * @pre none
-     * @post none
+     * @post getColumn = column and column = #column
      */
     public int getColumn() {
         return Column;
